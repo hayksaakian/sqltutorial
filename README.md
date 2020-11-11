@@ -84,3 +84,32 @@ DROP DATABASE trendyoracle;
 
 
 https://sequelize.org/master/manual/creating-with-associations.html
+
+# Magic Methods
+
+addX etc. are added by calling ".belongsTo" and similar association methods
+
+cat.addOwner()
+cat.addOwners()
+cat.countOwners()
+cat.createOwner()
+cat.getOwner()
+cat.getOwners()
+cat.hasOwner()
+cat.hasOwners()
+cat.removeOwner()
+cat.removeOwners()
+cat.setOwner()
+owner.addCat()
+owner.addCats()
+owner.countCats()
+owner.createCat()
+owner.getCat()
+owner.getCats()
+owner.hasCat()
+owner.hasCats()
+owner.removeCat()
+owner.removeCats()
+owner.setCat()
+owner.setCats()
+
